@@ -1,0 +1,1092 @@
+{
+    "menus": [
+        {
+            "menuLabel": "MODULE_TRADE_SERVICES_REMITTANCES",
+            "subMenus": [
+                {
+                    "subMenuLabel": "N001_IR",
+                    "subMenuPermission": "ir_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=IR&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_CSTIN_IR",
+                    "subMenuPermission": "ir_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=IR&subProductCode=CSTIN&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MODULE_TRADE_TRANSFER",
+                    "subMenuPermission": "trade_ft_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=FT&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_TRADE_SERVICES_IMPORT",
+            "subMenus": [
+                {
+                    "subMenuLabel": "N001_LC",
+                    "subMenuPermission": "lc_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=LC&subProductCode=LCSTD&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_IC",
+                    "subMenuPermission": "ic_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=IC&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_SG",
+                    "subMenuPermission": "sg_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=SG&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_LS",
+                    "subMenuPermission": "ls_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_INITIATE_LS",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_LS_FROM_SCRATCH",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?option=SELECT",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_LS_FROM_TEMPLATE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=01&option=TEMPLATE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_LS_FROM_LS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=01&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_DRAFT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=01&mode=DRAFT",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_UNSIGNED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=01&mode=UNSIGNED",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_INITIATE_LS_AMENDMENT",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_LS_FROM_EXISTING_LS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=03&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_DRAFT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=03&mode=DRAFT",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_UNSIGNED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=03&mode=UNSIGNED",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_CREATE_FREEFORMAT_TRANSACTION",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_LS_FROM_EXISTING_LS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=13&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_LS_FROM_ACTION_REQUIRED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=13&operation=EXISTING&option=ACTION_REQUIRED",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_DRAFT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?mode=DRAFT&tnxtype=13",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_UNSIGNED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?tnxtype=13&mode=UNSIGNED",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_PENDING_LS_TRANSACTIONS",
+                            "subMenuPermission": "ls_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?operation=LIST_PENDING",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_LS_INQUIRY",
+                            "subMenuPermission": "ls_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?operation=LIST_INQUIRY",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_LS_TRANSACTION_MAINTENANCE",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_UPDATE_ENTITY",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?option=UPDATE_ENTITY",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_UPDATE_CUSTOMER_REF",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?option=UPDATE_CUSTOMER_REF",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_LS_UNSIGNED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?operation=TRANSACTION_MAINTENANCE&option=PENDING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_LS_PURGED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?operation=TRANSACTION_MAINTENANCE&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_LS_REJECTED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/LicenseScreen?option=REJECTED&operation=TRANSACTION_MAINTENANCE",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MODULE_LETTER_OF_INDEMNITY",
+                    "subMenuPermission": "li_access",
+                    "subMenuUrl": null,
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_TRADE_SERVICES_EXPORT",
+            "subMenus": [
+                {
+                    "subMenuLabel": "N001_EL",
+                    "subMenuPermission": "el_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=EL&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_EC",
+                    "subMenuPermission": "ec_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=EC&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_TRADE_SERVICES_FINANCE_REQUEST",
+            "subMenus": [
+                {
+                    "subMenuLabel": "N001_TF",
+                    "subMenuPermission": "tf_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=TF&subProductCode=OTHER&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_TRADE_SERVICES_BANK_GAURANTEE",
+            "subMenus": [
+                {
+                    "subMenuLabel": "N001_SI",
+                    "subMenuPermission": "si_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=SI&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_SR",
+                    "subMenuPermission": "sr_access",
+                    "subMenuUrl": "/kotak6020/portal#/productListing?productCode=SR&option=GENERAL",
+                    "subMenus": [],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_TRADE_SERVICES_PURCHASE_ORDER",
+            "subMenus": [
+                {
+                    "subMenuLabel": "N001_PO",
+                    "subMenuPermission": "po_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_INITIATE_PO",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_PO_FROM_SCRATCH",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&option=SCRATCH",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_FROM_TEMPLATE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&option=TEMPLATE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_FROM_PO",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&option=UPLOAD",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_DRAFT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&mode=DRAFT",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_UNSIGNED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&mode=UNSIGNED",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_PO_FOLDER_FOR_LC",
+                            "subMenuPermission": "lc_from_po",
+                            "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?tnxtype=01&option=PO_FOLDER_LC",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_PENDING_PO_TRANSACTIONS",
+                            "subMenuPermission": "po_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?operation=LIST_PENDING",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_PO_INQUIRY",
+                            "subMenuPermission": "po_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?operation=LIST_INQUIRY",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_PO_TRANSACTION_MAINTENANCE",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_UPDATE_ENTITY",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?option=UPDATE_ENTITY",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_UNSIGNED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?operation=TRANSACTION_MAINTENANCE&option=PENDING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_NOT_REGISTERED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?option=NOT_REGISTERED&operation=TRANSACTION_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_PURGED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?operation=TRANSACTION_MAINTENANCE&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PO_REGISTERED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?option=REGISTERED&operation=TRANSACTION_MAINTENANCE",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_PO_MAINTAIN_PARAMETERS",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_PO_MAINTAIN_UPLOAD_PARAMETERS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/PurchaseOrderScreen?operation=UPLOAD_TEMPLATE_MAINTAIN_PO",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "N001_SO",
+                    "subMenuPermission": "so_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_NOTIFICATION_PO",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_SO_FROM_NOTIFICATION",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?option=EXISTING&tnxtype=21",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_DRAFT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?mode=DRAFT&tnxtype=21",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_UNSIGNED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?mode=UNSIGNED&tnxtype=21",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_CREATE_FREEFORMAT_TRANSACTION",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_SO_FROM_EXISTING_SO",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?tnxtype=13&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_SO_FROM_ACTION_REQUIRED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?tnxtype=13&operation=EXISTING&option=ACTION_REQUIRED",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_DRAFT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?mode=DRAFT&tnxtype=13",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_RETRIEVE_UNSIGNED",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?tnxtype=13&mode=UNSIGNED",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_PENDING_SO_TRANSACTIONS",
+                            "subMenuPermission": "so_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?operation=LIST_PENDING",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_SO_INQUIRY",
+                            "subMenuPermission": "so_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?operation=LIST_INQUIRY",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_SO_TRANSACTION_MAINTENANCE",
+                            "subMenuPermission": null,
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_UPDATE_ENTITY",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?option=UPDATE_ENTITY",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_UPDATE_CUSTOMER_REF",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?option=UPDATE_CUSTOMER_REF",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_SO_UNSIGNED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?operation=TRANSACTION_MAINTENANCE&option=PENDING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_SO_PURGED_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/SellOrderScreen?operation=TRANSACTION_MAINTENANCE&option=EXISTING",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_ADMINISTRATION_SERVICES",
+            "subMenus": [
+                {
+                    "subMenuLabel": "MENU_CHANGE_ENTITIES",
+                    "subMenuPermission": "access_customer_entity_mc",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=CUSTOMER_ENTITY_MAINTENANCE_MC",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_CHANGE_ENTITIES",
+                            "subMenuPermission": "access_customer_entity_mc",
+                            "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=CUSTOMER_ENTITY_MAINTENANCE_MC",
+                            "subMenus": []
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MENU_MAINTAIN_JURISDICTION",
+                    "subMenuPermission": "access_customer_authorisation_mc",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=JURISDICTION_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_JURISDICTION",
+                            "subMenuPermission": "access_customer_authorisation_mc",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_ROLE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=ROLE_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_AUTHORISATION_MC",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUTHORISATION_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MENU_MAINTAIN_USER",
+                    "subMenuPermission": "access_customer_user_mc",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=USER_MAINTENANCE_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_USER",
+                            "subMenuPermission": "access_customer_user_mc",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_YOUR_ACCOUNT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=USER_ACCOUNT_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_USER_AUTHENTICATION_MAINTENANCE_MC",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=USER_AUTHENTICATION_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MENU_MAINTAIN_DATA",
+                    "subMenuPermission": "sy_data_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=DATA_MAINTENANCE_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_DATA",
+                            "subMenuPermission": "sy_data_access",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_MIGRATION_ENTITY_DATA",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=LIST_ENTITY_MIGRATION",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BENEFICIARIES",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BENEFICIARIES_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_COUNTERPARTIES_FILE_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=COUNTERPARTY_FILE_UPLOAD",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BANKS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BANKS_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_ACCOUNTS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=ACCOUNTS_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_PHRASES",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=PHRASES_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BENEFICIARY_MASTER",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BENEFICIARY_MASTER_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BENEFICIARY_FILE_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BENEFICIARY_FILE_UPLOAD_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_CUSTOMER_ACCOUNTS_NICKNAME",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=LIST_FEATURES&option=ENTITY_ACCOUNTS_NICKNAME_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_EXTERNAL_ACCOUNT_MC",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?company=%25&option=ENTITY_EXT_ACCOUNT_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_EXTERNAL_ACCOUNT_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=MT940_FILE_UPLOAD_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_FACILITY_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=FACILITY_MAINTENANCE&entity=%25&operation=DISPLAY_FEATURES",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_FSCM_PROG_COUNTERPARTY",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=DISPLAY_FSCMPROG_LIST",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_FSCM_PROG_COUNTERPARTYLIST",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=FSCM_PROGRAM_MAINTENANCE",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MENU_PAYEE_REGISTRATION",
+                    "subMenuPermission": "access_customer_billp_mc",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=PAYEE_MAINTENANCE_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_PAYEE_REGISTRATION",
+                            "subMenuPermission": "access_customer_billp_mc",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_PAYEE_REGISTRATION_BILLP",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BILLP",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MENU_MAINTAIN_ALERT",
+                    "subMenuPermission": "sy_alert_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=ALERT_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_ALERT",
+                            "subMenuPermission": "sy_alert_access",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_SUBMISSION_ALERT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=MODIFY_FEATURES&option=ALERT_SUBMISSION_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_CALENDAR_ALERT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=MODIFY_FEATURES&option=ALERT_CALENDAR_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_BALANCE_ALERT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=MODIFY_FEATURES&option=ALERT_BALANCE_MAINTENANCE",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                },
+                {
+                    "subMenuLabel": "MENU_AUDIT_ACTION",
+                    "subMenuPermission": "audit_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_AUDIT_ACTION",
+                            "subMenuPermission": "audit_access",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_LOGIN",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_LOGIN",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_PRODUCT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_PRODUCT",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_SYSTEM_FEATURES",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_SYSTEM_FEATURES",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_OTHER",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_OTHER",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_REPORTS",
+            "subMenus": [
+                {
+                    "subMenuLabel": "MENU_REPORT_DESIGNER",
+                    "subMenuPermission": "sy_report_parameter_maintain",
+                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=REPORT_DESIGNER_HOME_ACTION",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_CHANGE_PROFILE",
+                            "subMenuPermission": "no_permission",
+                            "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=PROFILE_MAINTENANCE",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_CHANGE_ENTITIES",
+                            "subMenuPermission": "access_customer_entity_mc",
+                            "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=CUSTOMER_ENTITY_MAINTENANCE_MC",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_JURISDICTION",
+                            "subMenuPermission": "access_customer_authorisation_mc",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_ROLE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=ROLE_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_AUTHORISATION_MC",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUTHORISATION_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_USER",
+                            "subMenuPermission": "access_customer_user_mc",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_YOUR_ACCOUNT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=USER_ACCOUNT_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_USER_AUTHENTICATION_MAINTENANCE_MC",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=USER_AUTHENTICATION_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_DATA",
+                            "subMenuPermission": "sy_data_access",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_MIGRATION_ENTITY_DATA",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=LIST_ENTITY_MIGRATION",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BENEFICIARIES",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BENEFICIARIES_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_COUNTERPARTIES_FILE_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=COUNTERPARTY_FILE_UPLOAD",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BANKS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BANKS_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_ACCOUNTS",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=ACCOUNTS_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_PHRASES",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=PHRASES_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BENEFICIARY_MASTER",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BENEFICIARY_MASTER_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_BENEFICIARY_FILE_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BENEFICIARY_FILE_UPLOAD_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_CUSTOMER_ACCOUNTS_NICKNAME",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=LIST_FEATURES&option=ENTITY_ACCOUNTS_NICKNAME_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_EXTERNAL_ACCOUNT_MC",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?company=%25&option=ENTITY_EXT_ACCOUNT_MAINTENANCE_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CHANGE_EXTERNAL_ACCOUNT_UPLOAD",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=MT940_FILE_UPLOAD_MC",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_FACILITY_MAINTENANCE",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=FACILITY_MAINTENANCE&entity=%25&operation=DISPLAY_FEATURES",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_FSCM_PROG_COUNTERPARTY",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=DISPLAY_FSCMPROG_LIST",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_FSCM_PROG_COUNTERPARTYLIST",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=FSCM_PROGRAM_MAINTENANCE",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_PAYEE_REGISTRATION",
+                            "subMenuPermission": "access_customer_billp_mc",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_PAYEE_REGISTRATION_BILLP",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=BILLP",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_MAINTAIN_ALERT",
+                            "subMenuPermission": "sy_alert_access",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_SUBMISSION_ALERT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=MODIFY_FEATURES&option=ALERT_SUBMISSION_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_CALENDAR_ALERT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=MODIFY_FEATURES&option=ALERT_CALENDAR_MAINTENANCE",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_MAINTAIN_BALANCE_ALERT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=MODIFY_FEATURES&option=ALERT_BALANCE_MAINTENANCE",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_REPORT_DESIGNER",
+                            "subMenuPermission": "sy_report_parameter_maintain",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_CREATE_REPORT_FROM_SCRATCH",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=REPORT_DESIGN_NEW&option=SCRATCH",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_CREATE_REPORT_FROM_EXISTING",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=REPORT_DESIGN_NEW&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_REPORT_FROM_TEMPLATECSF",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=TEMPLATE&operation=REPORT_DESIGN_NEW",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_UPDATE_REPORT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=REPORT_DESIGN_UPDATE&option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_PARAMETER_REPORT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=EXISTING",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_SCHEDULE_REPORT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?operation=REPORT_DESIGN_SCHEDULE&option=EXISTING",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        },
+                        {
+                            "subMenuLabel": "MENU_AUDIT_ACTION",
+                            "subMenuPermission": "audit_access",
+                            "subMenuUrl": null,
+                            "subMenus": [
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_LOGIN",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_LOGIN",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_PRODUCT",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_PRODUCT",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_SYSTEM_FEATURES",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_SYSTEM_FEATURES",
+                                    "subMenuPermission": null
+                                },
+                                {
+                                    "subMenuLabel": "MENU_AUDIT_OTHER",
+                                    "subMenuUrl": "/kotak6020/portal/screen/CustomerSystemFeaturesScreen?option=AUDIT_ACTION&operation=LIST_OTHER",
+                                    "subMenuPermission": null
+                                }
+                            ]
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        },
+        {
+            "menuLabel": "MODULE_TRADE_INQUIRY",
+            "subMenus": [
+                {
+                    "subMenuLabel": "MODULE_BALANCES_TRANSACTIONS",
+                    "subMenuPermission": "sy_account_service_maintain_access",
+                    "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen",
+                    "subMenus": [
+                        {
+                            "subMenuLabel": "MENU_TODO_LIST_MC_TRANSACTIONS",
+                            "subMenuPermission": "todo_list_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_SUBMIT&option=TODO",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_REPORTING_MC_TRANSACTIONS",
+                            "subMenuPermission": "mc_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_REPORT",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_PENDING_MC_TRANSACTIONS",
+                            "subMenuPermission": "mc_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_PENDING",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_PENDING_ACK_MC_TRANSACTIONS",
+                            "subMenuPermission": "mc_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_PENDING_ACK",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_BATCH_INITIATION_MC_TRANSACTIONS",
+                            "subMenuPermission": "batch_operation",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_BATCH_INITIATION",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_BATCH_MC_TRANSACTIONS",
+                            "subMenuPermission": "batch_operation",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_BATCH_OPERATION",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_INQUIRY_MC_TRANSACTIONS",
+                            "subMenuPermission": "mc_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_INQUIRY",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_SE_ADVICES_AND_NOTIFICATION",
+                            "subMenuPermission": "se_advno_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_ADVICES",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_COLLABORATION_TASKS_MONITORING",
+                            "subMenuPermission": "collaboration_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=TASKS_MONITORING",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_DOWNLOAD_REPORT",
+                            "subMenuPermission": "se_dload_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_REPORTS",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_REVIEW_ALERTS",
+                            "subMenuPermission": "ab_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=LIST_FEATURES",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_EEFC_CONVERSION",
+                            "subMenuPermission": "mc_access",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=EEFC_LIST",
+                            "subMenus": []
+                        },
+                        {
+                            "subMenuLabel": "MENU_REPORT_EXECUTION",
+                            "subMenuPermission": "sy_cust_report_execute",
+                            "subMenuUrl": "/kotak6020/portal/screen/MessageCenterScreen?operation=REPORT_EXECUTE&option=EXISTING",
+                            "subMenus": []
+                        }
+                    ],
+                    "routerLink": null,
+                    "productCode": null,
+                    "subProductCode": null,
+                    "option": null
+                }
+            ]
+        }
+    ],
+    "response": "REST_API_SUCCESS",
+    "errorMessage": null
+}

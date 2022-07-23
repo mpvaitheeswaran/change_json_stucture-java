@@ -1,0 +1,41 @@
+{
+	"style": {
+	  "iconClass": "fa fa-paper-plane-o fg-shared-icon",
+	  "textClass": "fg-shared-text",
+	  "appBackgroundColor": null,
+	  "isInverseIcon": false,
+	  "iconStacks": {}
+	},
+	"name": "Servicing",
+	"role": null,
+	"permission": null,
+	"group": null,
+	"menuGroup": [
+	  
+	],
+	"url": null,
+	"descriptions": null,
+	"title": "Servicing",
+	"subTitle": null,
+	"middleOffice": "operations",
+	"quickInitiates": null,
+	"isLiveApp": true,
+	"appId": "c9a63bba-ec5e-441f-bd16-0c6796b777a6",
+	"appType": null,
+	"appTitle": null,
+	"stackStyle": null,
+	"stackColor": null,
+	"fontColor": null,
+	"description": null,
+	"image": null,
+	"chead": null,
+	"menuStyle": null,
+	"appPriority": 300,
+	"hideAppOnNavbarNavigation": true,
+	"footerUUID": "41f5ab89-590b-464d-999d-f4ea6dd945a1",
+	"isMobileView": true,
+	"htmlContent": "<div id='accordion' style='margin-top:20px;'>  <div class='card'>    <div class='card-header' style='height:45px;'id='headingOne'>      <h5 class='mb-0' style='height:42px; margin-top: -10px; '>   <button class='fgmenu' data-toggle='collapse' data-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>    Have Queries?   <i style='color: black;margin-left: 20px;' class='fa fa-angle-down arrow collapsed' aria-hidden='true'></i>   </button>      </h5>   </div>    <div id='collapseOne' class='collapse queries-alginment' aria-labelledby='headingOne' data-parent='#accordion'>      <div class='card-body'> <p style='font-size: 12px;color: #474747;'>You can reach us using,</p>           <p style='font-size: 14px;color: #2e3094;'>Toll Free No: 1800-209-7845 <br><span style='font-size: 10px;color: #474747;'>Mon - Sat: 9:30AM - 6:30PM</span></p>      <p style='font-size: 14px;color: #2e3094;'>quiklyz.service@mahindra.com</p>  </div>    </div>  </div> </div>",
+	"appLauncherUUID": null,
+	"deviceChannel": "Universal",
+	"stacked": false
+}

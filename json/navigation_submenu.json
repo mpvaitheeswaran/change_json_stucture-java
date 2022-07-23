@@ -1,0 +1,27 @@
+{
+	"style": {
+	  "iconClass": "fa fa-th-large fg-shared-icon",
+	  "textClass": "fg-shared-text",
+	  "appBackgroundColor": null,
+	  "isInverseIcon": false,
+	  "iconStacks": null
+	},
+	"menuItem": null,
+	"name": "Dashboard",
+	"role": "",
+	"permission": "FG_ACCOUNT_FG_ASSET_FIN_ACCOUNT_ACCESS",
+	"group": null,
+	"url": "",
+	"entityTypeCode": "FG_ACCOUNT",
+	"entitySubTypeCode": "FG_ASSET_FIN_ACCOUNT",
+	"description": "",
+	"pageId": "3ba932ad-3009-4a93-8e8e-51aff5afc2e1",
+	"pageVersionId": null,
+	"parentPageId": "",
+	"parentPageVersionId": null,
+	"action": "INITIATE",
+	"menuGroup": false,
+	"isLiveApp": true,
+	"isDefaultMenu": false,
+	"namedUrl": null
+}
